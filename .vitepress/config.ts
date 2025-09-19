@@ -1,8 +1,15 @@
 import { defineConfig } from 'vitepress'
 import { withSidebar } from 'vitepress-sidebar';
 
-// https://vitepress.dev/reference/site-config
-const config = {
+const sidebarOptions = {
+  documentRootPath: '/',
+  collapsed: false,
+  capitalizeFirst: true,
+  useTitleFromFileHeading: true,
+  excludePattern: ['**/README.md']
+};
+
+export default defineConfig(withSidebar({
   title: "Henry's Recipes",
   description: "Collection of recipes Henry has personally tested and loved. Find your next favorite meal here.",
   themeConfig: {
@@ -18,13 +25,5 @@ const config = {
       },
     },
   },
-}
-
-const sidebarOptions = {
-  documentRootPath: '/',
-  collapsed: false,
-  capitalizeFirst: true,
-  useTitleFromFileHeading: true,
-};
-
-export default defineConfig(withSidebar(config, sidebarOptions));
+  head: [['link', { rel: 'icon', href: '/favicon.png' }]],
+}, sidebarOptions));
