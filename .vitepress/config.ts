@@ -29,4 +29,5 @@ export default defineConfig(withSidebar({
     ['link', { rel: 'icon', href: '/favicon.png' }],
     ['meta', { property: 'og:image', content: '/ogimage.jpg' }],
   ],
+  srcExclude: ['**/README.md', '**/template.md'],
 }, sidebarOptions));

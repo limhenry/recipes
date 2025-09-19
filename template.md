@@ -20,4 +20,4 @@
 
 ## Photos
 
-![](../assets/chinese/food-image-here.jpeg)
+![Pork Belly](../assets/chinese/braised-pork-belly.jpeg)
