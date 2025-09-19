@@ -25,5 +25,8 @@ export default defineConfig(withSidebar({
       },
     },
   },
-  head: [['link', { rel: 'icon', href: '/favicon.png' }]],
+  head: [
+    ['link', { rel: 'icon', href: '/favicon.png' }],
+    ['meta', { property: 'og:image', content: '/ogimage.jpg' }],
+  ],
 }, sidebarOptions));
