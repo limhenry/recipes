@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "preview": "vitepress preview"
+  },
+  "devDependencies": {
+    "vitepress-sidebar": "^1.33.0"
+  },
+  "dependencies": {
+    "lite-youtube-embed": "^0.3.3"
+  }
+}
