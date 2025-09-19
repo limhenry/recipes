@@ -7,7 +7,7 @@
 
 ## Henry's Note
 
-In the last place, instead of sesame oil, replace it with [butter](https://www.instagram.com/reel/DOdRomBEmnu/) (Recipe from _Bon Appétit, Your Majesty_).
+In the last step, instead of sesame oil, replace it with [butter](https://www.instagram.com/reel/DOdRomBEmnu/) (Recipe from _Bon Appétit, Your Majesty_).
 
 ## Photos
 

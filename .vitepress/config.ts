@@ -6,7 +6,7 @@ const sidebarOptions = {
   collapsed: false,
   capitalizeFirst: true,
   useTitleFromFileHeading: true,
-  excludePattern: ['**/README.md']
+  excludePattern: ['**/README.md', '**/template.md'],
 };
 
 export default defineConfig(withSidebar({
